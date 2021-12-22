@@ -36,6 +36,8 @@ def buddy(start, limit):
             return (n, m)
         else:
             return 'Nothing'
+    else:
+        return 'Nothing'
 
 if __name__ == '__main__':
     print(buddy(48, 75))
